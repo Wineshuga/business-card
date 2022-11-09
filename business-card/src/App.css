@@ -7,6 +7,10 @@
 
 body {
   background-color: #23252C;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items:center;
 }
 
 .header {
@@ -19,7 +23,6 @@ body {
 
 .App {
   max-width: 500px;
-  margin: auto;
 }
 
 .main {
@@ -29,7 +32,6 @@ body {
 }
 
 .card {
-  margin-top: 1rem;
   border-radius: 10px;
   text-align: center;
   padding-top: 1rem;
