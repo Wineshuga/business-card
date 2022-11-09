@@ -5,14 +5,13 @@ import github from "../Assets/GitHub Icon.png";
 
 function Footer() {
     return (
-      <footer>
-        <img src={twitter} alt="twitter" />
-        <img src={facebook} alt="facebook" />
-        <img src={instagram} alt="instagram" />
-        <img src={github} alt="github" />
-      </footer>
+        <footer>
+            <a href="https://www.twitter.com/wineshuga" target="_blank" rel="noreferrer"><img src={twitter} alt="twitter" /></a>
+            <a href="https://www.facebook.com/uzochukwwinnie" target="_blank" rel="noreferrer"><img src={facebook} alt="facebook" /></a>
+            <a href="https://www.instagram.com/wineshuga" target="_blank" rel="noreferrer"><img src={instagram} alt="instagram" /></a>
+            <a href="https://github.com/wineshuga" target="_blank" rel="noreferrer"><img src={github} alt="github" /></a>
+        </footer>
     );
-  }
-  
-  export default Footer;
-  
+}
+
+export default Footer;
