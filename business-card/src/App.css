@@ -117,4 +117,14 @@ footer {
     width: 317px;
     height: 317px;
   }  
+
+  .main {
+    height: 100vh;
+  }
+}
+
+@media screen and (max-width: 750px) and (min-width: 250px) {
+  button {
+    width: 7rem;
+  }
 }
