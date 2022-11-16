@@ -104,6 +104,10 @@ button {
   padding: 0.5rem;
 }
 
+.interests {
+  padding-bottom: 2rem;
+}
+
 footer {
   display: flex;
   background-color: #161619;
@@ -112,13 +116,13 @@ footer {
   border-radius: 0 0 20px 20px;
 }
 
-@media screen and (max-width: 750px) and (min-width: 250px) {
+@media screen and (max-width: 750px) and (min-width: 250px) {  
   .card--info > img {
     width: 317px;
     height: 317px;
   }  
 
-  .main {
+  .App {
     height: 100vh;
   }
 }
