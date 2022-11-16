@@ -1,11 +1,11 @@
 function About() {
   return (
-    <section className="about">
+    <section className="about ">
       <h3><span className="header">About</span></h3>
       <p className="text">
-        I am a frontend developer with a particular interest in making things
-        simple and automating daily tasks. I try to keep up with security and
-        best practices, and am always looking for new things to learn.
+        I am a frontend developer who strives to maintain 
+        best practices and to execute tasks effectively and on time.
+        I am always open to learning new things.
       </p>
     </section>
   );

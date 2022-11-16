@@ -3,8 +3,8 @@ function Interests() {
     <section className="interests">
       <h3><span className="header">Interests</span></h3>
       <p className="text">
-        Food expert. Music scholar. Reader. Internet fanatic. Bacon buff.
-        Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.
+        Music lover. Reader. Afro-phile. Internet fanatic. Fun expert.
+        Entrepreneur. Travel geek. Minimalist. Groundnut addict.
       </p>
     </section>
   );
