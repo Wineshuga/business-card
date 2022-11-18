@@ -11,14 +11,13 @@ $negative-color: #DBEAB8;
 
 .card {
     background-color: $primary-color;
-    width: 15.8rem;
-    margin: 0.63rem;
-    padding: 1.5rem;
-    border-radius: 0.5rem
+    width: 16rem;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
 }
 
 .filename {
-    @include flexCenter(0.63rem);
+    @include flexCenter(1rem);
 
     .filename__text {
         line-height: 1px;
