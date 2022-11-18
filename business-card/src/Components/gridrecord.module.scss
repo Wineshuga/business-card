@@ -1,5 +1,6 @@
 $primary-color: #ffffff;
 $text-color: #000000;
+$negative-color: #DBEAB8;
 
 
 @mixin flexCenter($gap) {
@@ -10,17 +11,17 @@ $text-color: #000000;
 
 .card {
     background-color: $primary-color;
-    width: 252px;
-    margin: 10px;
-    padding: 24px;
-    border-radius: 8px
+    width: 15.8rem;
+    margin: 0.63rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem
 }
 
 .filename {
-    @include flexCenter(10px);
+    @include flexCenter(0.63rem);
 
     .filename__text {
-        line-height: 1;
+        line-height: 1px;
     }
 }
 
@@ -29,5 +30,11 @@ $text-color: #000000;
 }
 
 .analysis {
-    @include flexCenter(50px)
+    @include flexCenter(3.4rem);
+
+    .main__analysis {
+        background-color: pink;
+        padding: 0.1rem 0.9rem;
+        border-radius: 4px;
+    }
 }

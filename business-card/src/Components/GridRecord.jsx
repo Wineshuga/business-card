@@ -13,7 +13,7 @@ const GridRecord = (props) => {
         </div>
       </div>
       <div className={styles.analysis}>
-        <h5>{props.analysis}</h5>
+        <h5 className={styles.main__analysis}>{props.analysis}</h5>
         <p className={styles.paragraph}>{props.date}</p>
       </div>
     </div>
