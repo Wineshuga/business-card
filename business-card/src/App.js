@@ -1,5 +1,5 @@
 import './App.css';
-import History from "./Pages/History"
+import History from "./Pages/History/History"
 
 function App() {
   return (

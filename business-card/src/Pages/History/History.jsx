@@ -1,5 +1,6 @@
-import GridRecord from "../Components/GridRecord"
-import {data} from "../data.jsx"
+import GridRecord from "../../Components/GridRecord"
+import {data} from "../../data.jsx"
+import styles from "./history.module.scss"
 
 export default function History () {
     const record = data.map(item => 
@@ -11,7 +12,7 @@ export default function History () {
             />
         )
     return (
-        <div className="history">
+        <div className={styles.history}>
             <h1>Record History</h1>
             <div className="history--nav">
                 <select name="Grid" id="">
@@ -25,7 +26,7 @@ export default function History () {
                     <option value="date">Date</option>
                 </select>
             </div>
-            <div>
+            <div className={styles.record}>
                 {record}
             </div>
         </div>
