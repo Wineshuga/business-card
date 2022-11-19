@@ -1,8 +1,8 @@
 import React from 'react'
 import CallImage from "../Assets/callImage.png"
-import styles from "./gridrecord.module.scss"
+import styles from "./grid.module.scss"
 
-const GridRecord = (props) => {
+const Grid = (props) => {
   return (
     <div className={styles.card}>
       <div className={styles.filename}>
@@ -20,4 +20,4 @@ const GridRecord = (props) => {
   )
 }
 
-export default GridRecord
+export default Grid

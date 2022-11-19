@@ -1,0 +1,37 @@
+$primary-color: #ffffff;
+
+@mixin flexCenter {
+    display: flex;
+    align-items: center;
+}
+
+.listbox {
+    background-color: $primary-color;
+}
+
+.record__list {
+    display: flex;
+}
+
+.record__content {
+    @include flexCenter;
+    gap: 5rem;
+}
+
+.checkbox {
+    display: flex;
+    margin-right: 3rem;
+}
+
+.record__image_div {
+    @include flexCenter;
+    gap: 1rem;
+}
+
+.paragraph {
+    font-size: 16px;
+}
+
+.image {
+    width: 1.5rem;    
+}
