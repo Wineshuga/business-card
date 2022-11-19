@@ -1,13 +1,17 @@
 $primary-color: #ffffff;
 
- @mixin flexCenter {
+@mixin flexCenter {
     display: flex;
-         align-items: center;
- }
+    align-items: center;
+}
 
- .table {
+.table {
     width: 100%;
- }
+}
+
+.table__row {
+    padding: 0.5rem;
+}
 
 .listbox {
     background-color: $primary-color;
@@ -22,15 +26,11 @@ $primary-color: #ffffff;
     margin-right: 3rem;
 }
 
- .record__image_div {
-     @include flexCenter;
-     gap: 1rem;
-}
-
-.paragraph {
-    font-size: 16px;
+.record__image_div {
+    @include flexCenter;
+    gap: 1rem;
 }
 
 .image {
-    width: 1.5rem;    
+    width: 1.5rem;
 }
