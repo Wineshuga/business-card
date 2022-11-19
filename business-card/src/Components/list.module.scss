@@ -1,9 +1,13 @@
 $primary-color: #ffffff;
 
-@mixin flexCenter {
+ @mixin flexCenter {
     display: flex;
-    align-items: center;
-}
+         align-items: center;
+ }
+
+ .table {
+    width: 100%;
+ }
 
 .listbox {
     background-color: $primary-color;
@@ -13,19 +17,14 @@ $primary-color: #ffffff;
     display: flex;
 }
 
-.record__content {
-    @include flexCenter;
-    gap: 5rem;
-}
-
 .checkbox {
     display: flex;
     margin-right: 3rem;
 }
 
-.record__image_div {
-    @include flexCenter;
-    gap: 1rem;
+ .record__image_div {
+     @include flexCenter;
+     gap: 1rem;
 }
 
 .paragraph {
