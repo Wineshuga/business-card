@@ -1,10 +1,10 @@
 import './App.css';
-import History from "./Pages/History/History"
+import Index from "./History";
 
 function App() {
   return (
     <div className="App">
-      <History />
+      <Index />
     </div>
   );
 }

@@ -1,0 +1,49 @@
+$primary-color: #ffffff;
+
+@mixin flexCenter {
+  display: flex;
+  align-items: center;
+}
+
+.name, .table__data_agent, .date, .analysis, .lenght {
+  width: 20rem;
+  padding: 1rem;
+}
+
+.list__container {
+  padding: 0.5rem 0.5rem;
+}
+
+.positiveColor {
+  background-color: #FFC2CB;
+  padding: 0.1rem 0.9rem;
+  border-radius: 4px;
+  width: fit-content;
+}
+
+.negativeColor {
+  background-color:#DBEAB8;
+  padding: 0.1rem 0.9rem;
+  border-radius: 4px;
+  width: fit-content;
+}
+
+.neutralColor {
+  background-color: #ECECEC;
+  padding: 0.1rem 0.9rem;
+  border-radius: 4px;
+  width: fit-content;
+}
+
+.record__image_div {
+  @include flexCenter;
+  gap: 1rem;
+}
+
+.image {
+  width: 1.5rem;
+}
+
+.checkbox {
+  width: 2rem;
+}
